@@ -1,0 +1,29 @@
+body {
+    background: black;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-text {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+#continue-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+}
+
+#continue-button:hover {
+    background-color: #45a049;
+}
